@@ -147,10 +147,10 @@
 		<div class="icons" style=" background-image: url(score2.png); left: 200px;"></div> <h1 class="txt score2" style="left: 320px; top: 20px;"> 0 </h1>
 
 
-		<h1 class="txt" style="top: 100px;">2lvl = 100</h1>
-		<h1 class="txt" style="top: 150px;">3lvl = 300</h1>
-		<h1 class="txt" style="top: 200px;">4lvl = 666</h1>
-		<h1 class="txt" style="top: 250px;">5lvl = 999</h1>
+		<h1 class="txt" style="top: 100px;">2lvl = 500</h1>
+		<h1 class="txt" style="top: 150px;">3lvl = 1000</h1>
+		<h1 class="txt" style="top: 200px;">4lvl = 66666</h1>
+		<h1 class="txt" style="top: 250px;">5lvl = 999999</h1>
 
 		<div class="dog"></div>
 		<div class="food" onclick="eat()"></div>
@@ -213,19 +213,19 @@
 			score = score + sitnost
 			shot.innerHTML = score
 
-			if (score >= 100 && score <= 299){	
+			if (score >= 500 && score <= 999){	
 				pyosel.style.backgroundImage = "url(2lvl.png)"
 				lvl.innerHTML = "2"	
 				zarplata = 150	
 				}
 
-			if (score >= 300 && score <= 665){	
+			if (score >= 1000 && score <= 66665){	
 				pyosel.style.backgroundImage = "url(3lvl.png)"
 				lvl.innerHTML = "3"
 				zarplata = 200	
 				}
 
-			if (score >= 666 && score <= 998){	
+			if (score >= 66666 && score <= 999998){	
 				pyosel.style.backgroundImage = "url(4lvl.png)"
 				lvl.innerHTML = "4"
 				zarplata = 250		
